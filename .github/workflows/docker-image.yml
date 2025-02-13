@@ -21,5 +21,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t coolgooseman/container:latest .
-        docker push coolgooseman/container:latest
+        docker build -t coolgooseman/container:latest2 .
+        docker push coolgooseman/container2:latest
